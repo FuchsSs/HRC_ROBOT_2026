@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "customs")(type "KiCad")(uri "${KIPRJMOD}/customs.pretty")(options "")(descr ""))
+  (lib (name "MyCustoms")(type "KiCad")(uri "${KIPRJMOD}/MyCustoms.pretty")(options "")(descr ""))
+)

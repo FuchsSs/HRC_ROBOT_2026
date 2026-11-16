@@ -1,0 +1,264 @@
+(footprint "MP1584_fp"
+	(version 20260206)
+	(generator "pcbnew")
+	(layer "F.Cu")
+	(descr "Through hole straight pin header, 1x11, 1.00mm pitch, single row")
+	(tags "Through hole pin header THT 1x11 1.00mm single row")
+	(property "Reference" "MP1"
+		(at 1.778 -1.61 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 2.286 11.61 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "connector/pin_header_socket"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -5.034 -5.216)
+		(end 12.876 17.734)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+	)
+	(fp_circle
+		(center -2.4299 -0.9779)
+		(end -2.9379 -0.4064)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+	)
+	(fp_circle
+		(center -2.4045 13.6525)
+		(end -2.9125 14.224)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+	)
+	(fp_circle
+		(center 10.1322 13.9709)
+		(end 9.6242 14.5424)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+	)
+	(fp_circle
+		(center 10.2747 -0.5953)
+		(end 9.7667 -0.0238)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+	)
+	(fp_rect
+		(start -5.334 -5.526)
+		(end 13.266 18.034)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+	)
+	(fp_rect
+		(start -5.034 -5.216)
+		(end 12.876 17.724)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_text user "+"
+		(at -2.3664 -0.9779 270)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at -2.341 13.6525 270)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "MP1584"
+		(at 8.8347 3.7547 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "-"
+		(at 10.1957 13.9709 270)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "-"
+		(at 10.3382 -0.5953 270)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -3.6903 6.1147 270)
+		(unlocked yes)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 11.416 -3.896 270)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(pinfunction "IN-_1")
+		(pintype "passive")
+	)
+	(pad "2" thru_hole circle
+		(at 8.876 -3.896 270)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(pintype "passive")
+	)
+	(pad "3" thru_hole circle
+		(at -1.284 -3.896 270)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(pinfunction "IN+_3")
+		(pintype "passive")
+	)
+	(pad "4" thru_hole circle
+		(at -3.824 -3.896 270)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(pintype "passive")
+	)
+	(pad "5" thru_hole circle
+		(at 11.416 16.424 270)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(pinfunction "OUT-_5")
+		(pintype "passive")
+	)
+	(pad "6" thru_hole circle
+		(at 8.876 16.424 270)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(pintype "passive")
+	)
+	(pad "7" thru_hole circle
+		(at -1.284 16.424 270)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(pinfunction "OUT+_7")
+		(pintype "passive")
+	)
+	(pad "8" thru_hole circle
+		(at -3.824 16.424 270)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(pintype "passive")
+	)
+	(embedded_fonts no)
+)

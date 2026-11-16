@@ -1,0 +1,22 @@
+# KiCad temporary, lock & backup files
+*-backups/
+*.lck
+~*.lck
+*.bak
+*.kicad_prl
+*-save.kicad_pcb
+*-save.kicad_sch
+*.user_saved_*
+fp-info-cache
+
+# Working backups / intermediate exports
+ASSISTANT_CURRENT.kicad_sch
+SAVED_USER_AUTOSAVE.kicad_sch
+page-*.png
+clean_page-*.png
+perfect_page-*.png
+pcb_before*
+pcb_after*
+pcb_pro*
+schematic.pdf
+schematic_clean.pdf
